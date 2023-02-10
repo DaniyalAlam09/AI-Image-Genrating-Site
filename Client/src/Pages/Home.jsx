@@ -16,7 +16,7 @@ const RenderCards = ({ data, title }) => {
 function Home() {
   const [loading, setLoading] = useState(false);
   const [post, setPost] = useState(null);
-  const [search, setSearch] = useState("55");
+  const [search, setSearch] = useState("");
   return (
     <section className="max-w-7xl mx-auto">
       <div>
@@ -46,7 +46,7 @@ function Home() {
               {search ? (
                 <RenderCards data={[]} title="No Results Found" />
               ) : (
-                <RenderCards data={[]} title="No Posts Yet" />
+                <RenderCards data={[]} title="No posts yet" />
               )}
             </div>
           </>

@@ -1,0 +1,5 @@
+{
+    "mongooseURL": "mongodb://localhost:27017/AiImageGenration",
+    "openapikey": "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",
+    "port": "4000"
+}
